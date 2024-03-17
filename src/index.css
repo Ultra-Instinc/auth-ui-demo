@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: "sst_arabic_bold";
+	src: local("Sst-Bold"),
+		url("./assets/fonts/arfonts-sst-arabic-roman.ttf") format("truetype");
+}
+body {
+	background: url("/bg.png");
+	background-repeat: repeat-x;
+	background-position-x: 5%;
+	background-size: cover;
+}
