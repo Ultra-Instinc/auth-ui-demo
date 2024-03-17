@@ -4,16 +4,11 @@ import IMAGE1 from "/authSwiper/1.jpg";
 import IMAGE2 from "/authSwiper/2.jpg";
 import IMAGE3 from "/authSwiper/3.jpg";
 
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
 const swipeData = [
 	{ key: 1, img: IMAGE1 },
 	{ key: 2, img: IMAGE2 },
 	{ key: 3, img: IMAGE3 },
 ];
-
-// import required modules
 
 export default function AuthSwiper({ swiperState, setSwiperState }) {
 	useEffect(() => {

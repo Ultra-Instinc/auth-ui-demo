@@ -3,7 +3,7 @@ const changingContent = [
 	{
 		key: 1,
 		header: "متابعة التقارير",
-		content: "اسأل و تابع مع المزيد من أنواع مختلفة كم التقارير",
+		content: "اسأل و تابع مع المزيد من أنواع مختلفة من التقارير",
 	},
 	{
 		key: 2,
@@ -15,7 +15,7 @@ const changingContent = [
 		key: 3,
 		header: "رؤية السوق",
 		content:
-			"أطلق العنان لقوة معدل NIC MAP و بيانات اللإشغال داخل بوابة VisionLTC",
+			"و NIC MAP أطلق العنان لقوة معدل VisionLTC بيانات اللإشغال داخل بوابة",
 	},
 ];
 const AuthChangingContent = ({ swiperState }) => {

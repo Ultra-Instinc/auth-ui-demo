@@ -5,7 +5,7 @@ import HomeIcon from "./../../../components/icons/HomeIcon";
 import AuthSwiper from "./../../../components/swiper/AuthSwiper";
 import AuthChangingContent from "./../../../components/animation/AuthChangingContent";
 
-const Login = () => {
+const SignUp = () => {
 	const [swiperState, setSwiperState] = useState(0);
 	const handleSubmit = (e) => {
 		e.preventDefault();
@@ -93,4 +93,4 @@ const Login = () => {
 	);
 };
 
-export default Login;
+export default SignUp;
