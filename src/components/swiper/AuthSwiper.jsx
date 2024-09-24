@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useLayoutEffect } from "react";
 
 import IMAGE1 from "/authSwiper/1.jpg";
 import IMAGE2 from "/authSwiper/2.jpg";
@@ -11,7 +11,7 @@ const swipeData = [
 ];
 
 export default function AuthSwiper({ swiperState, setSwiperState }) {
-	useEffect(() => {
+	useLayoutEffect(() => {
 		setTimeout(() => {
 			if (swiperState === 2) {
 				setSwiperState(0);
